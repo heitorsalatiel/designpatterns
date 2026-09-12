@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="Behavioral/Behavioral.csproj" />
+  <Project Path="Creational/Creational.csproj" />
+  <Project Path="Structural/Structural.csproj" />
+</Solution>
