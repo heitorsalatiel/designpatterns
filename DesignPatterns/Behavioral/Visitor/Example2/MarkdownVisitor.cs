@@ -1,0 +1,23 @@
+﻿namespace Behavioral.Visitor.Example2
+{
+    public class MarkdownVisitor : IDocumentVisitor
+    {
+        public void Visit(TitleElement element)
+        {
+            Console.WriteLine($"# {element.Text}");
+            Console.WriteLine();
+        }
+
+        public void Visit(SubtitleElement element)
+        {
+            Console.WriteLine($"## {element.Text}");
+            Console.WriteLine();
+        }
+
+        public void Visit(ContentElement element)
+        {
+            Console.WriteLine($"{element.Text}");
+            Console.WriteLine();
+        }
+    }
+}
