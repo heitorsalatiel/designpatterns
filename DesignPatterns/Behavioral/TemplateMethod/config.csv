@@ -1,0 +1,4 @@
+﻿DatabaseConnection,Server=server;Database=database
+ApiKey,apiKey
+Timeout,30
+MaxRetries,3

@@ -2,6 +2,6 @@
 {
     public interface Element
     {
-        void Accept(Visitor visitor);
+        void Accept(IVisitor visitor);
     }
 }

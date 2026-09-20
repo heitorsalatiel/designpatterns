@@ -1,6 +1,6 @@
 ﻿namespace Behavioral.Visitor.Example1
 {
-    public class ConcreteVisitor2 : Visitor
+    public class ConcreteVisitor2 : IVisitor
     {
         public void Visit(ConcreteElement1 element)
         {

@@ -2,7 +2,7 @@
 {
     public class ConcreteElement2 : Element
     {
-        public void Accept(Visitor visitor)
+        public void Accept(IVisitor visitor)
         {
             visitor.Visit(this);
         }
